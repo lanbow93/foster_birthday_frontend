@@ -18,7 +18,9 @@ const LandingPage = () => {
         headers: {
           "Content-Type": "application/json",
         },
+        credentials: "include",
         body: JSON.stringify({ password, username: "birthdayboy"}),
+        
       });
       if (response.ok) {
         setAccessGranted(true);
