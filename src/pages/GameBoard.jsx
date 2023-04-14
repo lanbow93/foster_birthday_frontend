@@ -132,7 +132,10 @@ const GameBoard = () => {
 
   ///////////// DISPLAY /////////////
 
-  return (
+  return (<>
+    <div className="centered">
+    <h1>Card Match Game</h1>
+    </div>
     <div className="game-board">
       {!gameOver &&
         cardList.map((card, index) => (
@@ -147,7 +150,7 @@ const GameBoard = () => {
         ))}
       {gameOver && <GameOver restartGame={restartGame} />}
     </div>
-  );
+    </>);
 };
 
 export default GameBoard;
