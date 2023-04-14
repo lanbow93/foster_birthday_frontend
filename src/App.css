@@ -1,38 +1,31 @@
-.App {
-  text-align: center;
+.game-board {
+  background-image: url("https://static.wixstatic.com/media/8ee8bf_b936c824faa843908906b1609d9bc007~mv2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: fit;
+
+  min-height: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.successful {
+  color: red;
+  background-color: black;
+  font-size: 2rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.landing-page {
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  height: 100vh;
+
   color: white;
+  background-color: black;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.submit {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
 }

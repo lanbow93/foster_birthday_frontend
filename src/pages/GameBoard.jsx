@@ -5,18 +5,26 @@ import GameOver from "../components/GameOver";
 
 const GameBoard = () => {
   const cards = [
-    "TV",
-    "TV",
-    "VT",
-    "VT",
-    "hbird",
-    "hbird",
-    "name",
-    "name",
-    "seal",
-    "seal",
-    "tracks",
-    "tracks"
+    "Baking_Foster",
+    "Baking_Foster",
+    "Climbing_Foster",
+    "Climbing_Foster",
+    "Computer_Foster",
+    "Computer_Foster",
+    "Foster_Basketball",
+    "Foster_Basketball",
+    "Lake_Foster",
+    "Lake_Foster",
+    "Lego_Foster",
+    "Lego_Foster",
+    "Math_Foster",
+    "Math_Foster",
+    "Smiling_Foster",
+    "Smiling_Foster",
+    "Soccer_Foster",
+    "Soccer_Foster",
+    "Zoo_Foster",
+    "Zoo_Foster"    
   ];
 
   ///////////// HELPER FUNCTION /////////////
