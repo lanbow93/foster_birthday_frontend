@@ -11,8 +11,6 @@ const GameBoard = () => {
     "Climbing_Foster",
     "Computer_Foster",
     "Computer_Foster",
-    "Foster_Basketball",
-    "Foster_Basketball",
     "Lake_Foster",
     "Lake_Foster",
     "Lego_Foster",
